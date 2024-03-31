@@ -11,7 +11,7 @@ onMounted(() => {
 const { locale } = useI18n({ useScope: 'global' })
 
 /* Testimonials */
-const { data: testimonials } = await useFetch('/api/testimonials')
+const { data: testimonials } = []
 
 const testimonialItem = ref({})
 const activeModal = ref(false)
@@ -31,7 +31,25 @@ function closeTestimonaial() {
 /* Testimonials */
 
 /* Services */
-const { data: services } = await useFetch('/api/services')
+const { data: services } = [
+  {
+    id: 1,
+    title: 'Pytorch',
+    description: {
+      en: 'I create modern and advanced AI algorithms using Pytorch, the Python framework.',
+    },
+    icon: 'logo-laravel',
+    image: null,
+  },
+  {
+    id: 2,
+    title: 'Vue JS',
+    description: {
+      en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
+    },
+    icon: 'logo-vue',
+    image: null,
+  }]
 </script>
 
 <template>
