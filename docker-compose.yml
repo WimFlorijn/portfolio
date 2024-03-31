@@ -6,4 +6,4 @@ services:
       context: .
     restart: unless-stopped
     ports:
-      - "80:8080"
+      - "3333:8080"
