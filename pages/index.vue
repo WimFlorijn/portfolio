@@ -11,7 +11,7 @@ onMounted(() => {
 const { locale } = useI18n({ useScope: 'global' })
 
 /* Testimonials */
-const { data: testimonials } = []
+const testimonials = []
 
 const testimonialItem = ref({})
 const activeModal = ref(false)
@@ -31,7 +31,7 @@ function closeTestimonaial() {
 /* Testimonials */
 
 /* Services */
-const { data: services } = [
+const services = [
   {
     id: 1,
     title: 'Pytorch',

@@ -8,7 +8,7 @@ useHead({
 })
 
 const { locale } = useI18n({ useScope: 'global' })
-const { data: projects } = [
+const projects = [
   {
     id: 1,
     title: 'Loki',
@@ -72,7 +72,7 @@ const { data: projects } = [
     image: '/images/typekaart-scanner.webp',
   },
 ]
-const { data: categories } = [
+const categories = [
   {
     id: 1,
     title: {
