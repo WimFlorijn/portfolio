@@ -93,7 +93,7 @@ const categories = [
   },
 ]
 
-const projectList = [...projects.value]
+const projectList = [...projects]
 const activeCategory = ref(0)
 const filterMenu = ref(false)
 const activeCategoryName = ref('')
@@ -111,7 +111,7 @@ const activeModal = ref(false)
 const activeOverlay = ref(false)
 
 function showItem(id) {
-  activeItem.value = projects.value.find(item => item.id === id)
+  activeItem.value = projects.find(item => item.id === id)
   activeModal.value = true
   activeOverlay.value = true
 }
