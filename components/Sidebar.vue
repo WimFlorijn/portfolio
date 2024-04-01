@@ -1,5 +1,5 @@
 <script setup>
-let isOpen = ref(false)
+let isOpen = ref(true)
 
 function toggleMenu() {
   isOpen = !isOpen
