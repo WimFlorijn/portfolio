@@ -36,16 +36,16 @@ const services = [
     id: 1,
     title: 'Pytorch',
     description: {
-      en: 'I create modern and advanced AI algorithms using Pytorch, the Python framework.',
+      en: 'Unleashing the power of Pytorch, I create cutting-edge AI solutions that redefine the boundaries of what\'s possible.',
     },
     icon: 'logo-laravel',
     image: null,
   },
   {
     id: 2,
-    title: 'Vue JS',
+    title: 'Tensorflow',
     description: {
-      en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
+      en: 'Harnessing Tensorflow, I make groundbreaking AI algorithms tailored for the dynamic needs of corporate tech.',
     },
     icon: 'logo-vue',
     image: null,

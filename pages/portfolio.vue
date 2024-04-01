@@ -27,6 +27,54 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Trendata Insights',
+    category: {
+      id: 2,
+      title: {
+        en: 'Big Data Analysis',
+      },
+    },
+    content: {
+      en: 'Trendata turns market mystery into business mastery with a market intelligence platform that gives you a complete understanding of your market.',
+    },
+    date: '25 September, 2023',
+    url: 'https://trendata.io/',
+    image: '/images/trendata-insights.png',
+  },
+  {
+    id: 3,
+    title: 'Typekaart Scanner.',
+    category: {
+      id: 3,
+      title: {
+        en: 'Computer Vision',
+      },
+    },
+    content: {
+      en: 'A cutting-edge web application designed to revolutionize the way you identify devices from images. With the power of advanced AI technology, beekman can recognize various devices captured in photos, pinpointing their specific models and types.',
+    },
+    date: '2 March, 2024',
+    url: 'https://www.wimflorijn.nl/scanner',
+    image: '/images/typekaart-scanner.png',
+  },
+  {
+    id: 4,
+    title: 'Kadastrale Kaart Next.',
+    category: {
+      id: 3,
+      title: {
+        en: 'Computer Vision',
+      },
+    },
+    content: {
+      en: 'For processing cadastral sketches, we use the power of artificial intelligence. Take, for instance, the interpretation of handwritten measurement data. By automating this, we\'re not just cutting-edge – we\'re slashing costs and saving time.',
+    },
+    date: '19 June, 2022',
+    url: 'https://www.kadaster.nl/over-ons/beleid/algoritmeregister/kadastrale-kaart-next',
+    image: '/images/kkn-banner.png',
+  },
+  {
+    id: 5,
     title: 'Trendata Chat',
     category: {
       id: 1,
@@ -41,54 +89,24 @@ const projects = [
     url: 'https://chat.trendata.io/',
     image: '/images/trendata-chat.png',
   },
-  {
-    id: 3,
-    title: 'Trendata Insights',
-    category: {
-      id: 2,
-      title: {
-        en: 'Big Data Analysis',
-      },
-    },
-    content: {
-      en: 'Trendata turns market mystery into business mastery with a market intelligence platform that gives you a complete understanding of your market.',
-    },
-    url: 'https://trendata.io/',
-    image: '/images/trendata-insights.png',
-  },
-  {
-    id: 4,
-    title: 'Typekaart Scanner.',
-    category: {
-      id: 3,
-      title: {
-        en: 'Computer Vision',
-      },
-    },
-    content: {
-      en: 'A cutting-edge web application designed to revolutionize the way you identify devices from images. With the power of advanced AI technology, beekman can recognize various devices captured in photos, pinpointing their specific models and types.',
-    },
-    url: 'https://www.wimflorijn.nl/scanner',
-    image: '/images/typekaart-scanner.webp',
-  },
 ]
 const categories = [
   {
     id: 1,
     title: {
-      en: 'Chatbot',
+      en: 'Computer Vision',
     },
   },
   {
     id: 2,
     title: {
-      en: 'Big Data Analysis',
+      en: 'Chatbot',
     },
   },
   {
     id: 3,
     title: {
-      en: 'Computer Vision',
+      en: 'Big Data Analysis',
     },
   },
 ]
@@ -208,7 +226,7 @@ function closeItem() {
 
           <div class="modal-content space-y-3 mt-4">
             <h4 class="h3 modal-title">
-              {{ activeItem.title }}
+              <a :href="activeItem.url">{{ activeItem.title }}</a>
             </h4>
 
             <small class="flex items-center justify-start gap-2 text-gray-500">
