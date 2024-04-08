@@ -1,12 +1,9 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 
-useHead({
-})
+useHead({})
 
-onMounted(() => {
-
-})
+onMounted(() => {})
 
 const { locale } = useI18n({ useScope: 'global' })
 
@@ -38,7 +35,7 @@ const services = [
     description: {
       en: 'Unleashing the power of Pytorch, I create cutting-edge AI solutions that redefine the boundaries of what\'s possible.',
     },
-    icon: 'logo-laravel',
+    icon: '/images/logo-pytorch.svg',
     image: null,
   },
   {
@@ -47,7 +44,7 @@ const services = [
     description: {
       en: 'Harnessing Tensorflow, I make groundbreaking AI algorithms tailored for the dynamic needs of corporate tech.',
     },
-    icon: 'logo-vue',
+    icon: '/images/logo-tensorflow.svg',
     image: null,
   }]
 </script>

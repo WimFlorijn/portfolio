@@ -27,17 +27,17 @@ function toggleMenu() {
       <button class="info_more-btn" @click="isOpen = !isOpen">
         <span>Show Contacts</span>
 
-        <ion-icon name="chevron-down" />
+        <ion-icon name="chevron-down"/>
       </button>
     </div>
 
     <div class="sidebar-info_more">
-      <div class="separator" />
+      <div class="separator"/>
 
       <ul class="contacts-list">
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="mail-outline" />
+            <ion-icon name="mail-outline"/>
           </div>
 
           <div class="contact-info">
@@ -51,7 +51,7 @@ function toggleMenu() {
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-github" />
+            <ion-icon name="logo-github"/>
           </div>
 
           <div class="contact-info">
@@ -65,7 +65,7 @@ function toggleMenu() {
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-linkedin" />
+            <ion-icon name="logo-linkedin"/>
           </div>
 
           <div class="contact-info">
@@ -73,13 +73,14 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://www.linkedin.com/in/wim-florijn-592733115/" class="contact-link" target="_blank">Wim Florijn</a>
+            <a href="https://www.linkedin.com/in/wim-florijn-592733115/" class="contact-link" target="_blank">Wim
+              Florijn</a>
           </div>
         </li>
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="location-outline" />
+            <ion-icon name="location-outline"/>
           </div>
 
           <div class="contact-info">
@@ -92,18 +93,17 @@ function toggleMenu() {
         </li>
       </ul>
 
-      <div class="separator" />
+      <div class="separator"/>
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="https://www.twitter.com" class="social-link" target="_blank">
-            <ion-icon name="logo-twitter" />
+          <NuxtLink to="https://www.instagram.com" class="social-link" target="_blank">
+            <ion-icon name="logo-instagram"/>
           </NuxtLink>
         </li>
-
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com" class="social-link" target="_blank">
-            <ion-icon name="logo-instagram" />
+          <NuxtLink to="https://www.twitter.com" class="social-link" target="_blank">
+            <ion-icon src="/images/logo-x.svg"/>
           </NuxtLink>
         </li>
       </ul>

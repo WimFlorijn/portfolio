@@ -727,8 +727,6 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
-
 .clients-list {
   display: flex;
   justify-content: flex-start;

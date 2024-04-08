@@ -11,7 +11,7 @@
         </NuxtLink>
       </li>
 
-      <li v-show="false" class="navbar-item">
+      <li class="navbar-item">
         <NuxtLink to="/resume" class="navbar-link">
           {{ $t('pageTitles.resume') }}
         </NuxtLink>

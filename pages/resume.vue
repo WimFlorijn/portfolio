@@ -26,44 +26,37 @@ useHead({
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            University school of the arts
+            VWO - Bilingual
           </h4>
 
-          <span>2007 — 2008</span>
+          <span>2007 — 2013</span>
 
           <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
+            In high school, I thrived in a program where I studied both science and technology while learning in two languages. It was an exciting and demanding setting that deepened my interest in scientific studies and improved my language skills. This experience made my educational journey very fulfilling and enjoyable.
           </p>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            New york academy of art
+            University of Twente - Bachelor
           </h4>
 
-          <span>2006 — 2007</span>
+          <span>2013 — 2016</span>
 
           <p class="timeline-text">
-            Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda
-            est
-            omnis..
+            I earned my bachelor's degree in mathematics and machine learning at the University of Twente, where I sharpened my abilities to apply these areas in tackling real-world issues, preparing myself for a future in data-centric innovation.
           </p>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            High school of art and design
+            University of Twente - Master
           </h4>
 
-          <span>2002 — 2004</span>
+          <span>2017 — 2019</span>
 
           <p class="timeline-text">
-            Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed
-            consequuntur
-            magni dolores
-            eos.
+            I completed my master's in machine learning at the University of Twente with a 9/10 grade. My thesis improved ways to segment and classify search queries, showing my ability to convert data into useful insights at Trendata.
           </p>
         </li>
       </ol>
@@ -83,44 +76,25 @@ useHead({
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Creative director
+            Machine Learning Engineer
           </h4>
 
-          <span>2015 — Present</span>
+          <span>2019 — Present</span>
 
           <p class="timeline-text">
-            Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            qvuas
-            molestias
-            exceptur.
+            Expanded on my master's research by developing an AI-driven application for real-time big-data analysis, utilized by users with support from LLMs, POS tagging, and embedding models. This system integrates a machine learning API, Django backend, and Vue frontend.
           </p>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Art director
+            Consultant / Machine Learning Engineer
           </h4>
 
-          <span>2013 — 2015</span>
+          <span>2019 — Present</span>
 
           <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Web designer
-          </h4>
-
-          <span>2010 — 2013</span>
-
-          <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
+            Working on AI models to vectorize cadastral field sketches, offering chatbot access to cadastral data and enhancing planning tools with accurate forecasts. These models, built with PyTorch and TensorFlow, are deployed using Flask/FastAPI backends.
           </p>
         </li>
       </ol>
@@ -135,33 +109,33 @@ useHead({
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Web design
+              Python
             </h5>
-            <data value="80">80%</data>
+            <data value="95">95%</data>
           </div>
 
           <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 80%;" />
+            <div class="skill-progress-fill" style="width: 95%;" />
           </div>
         </li>
 
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Graphic design
+              Tensorflow
             </h5>
-            <data value="70">70%</data>
+            <data value="85">85%</data>
           </div>
 
           <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 70%;" />
+            <div class="skill-progress-fill" style="width: 85%;" />
           </div>
         </li>
 
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Branding
+              Consulting
             </h5>
             <data value="90">90%</data>
           </div>
@@ -174,13 +148,13 @@ useHead({
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              WordPress
+              Vue
             </h5>
-            <data value="50">50%</data>
+            <data value="80">80%</data>
           </div>
 
           <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 50%;" />
+            <div class="skill-progress-fill" style="width: 80%;" />
           </div>
         </li>
       </ul>

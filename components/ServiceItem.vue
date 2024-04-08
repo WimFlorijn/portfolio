@@ -16,7 +16,7 @@ const { locale } = useI18n({ useScope: 'global' })
   <li class="service-item">
     <div class="service-icon-box">
       <img v-if="service.image !== null && service.icon !== ''" :src="service.image" alt="mobile app icon" class="w-40">
-      <ion-icon v-else :name="service.icon" class="text-ranko-500 text-[3rem] mx-auto" style="width: 40px" />
+      <ion-icon v-else :src="service.icon" class="text-ranko-500 text-[3rem] mx-auto" style="width: 40px" />
     </div>
 
     <div class="service-content-box">
