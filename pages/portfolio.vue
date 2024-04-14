@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: 'Loki',
     category: {
-      id: 3,
+      id: 2,
       title: {
         en: 'Chatbot',
       },
@@ -29,7 +29,7 @@ const projects = [
     id: 2,
     title: 'Trendata Insights',
     category: {
-      id: 2,
+      id: 3,
       title: {
         en: 'Big Data Analysis',
       },
@@ -77,7 +77,7 @@ const projects = [
     id: 5,
     title: 'Trendata Chat',
     category: {
-      id: 3,
+      id: 2,
       title: {
         en: 'Chatbot',
       },
