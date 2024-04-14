@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: 'Loki',
     category: {
-      id: 1,
+      id: 3,
       title: {
         en: 'Chatbot',
       },
@@ -45,7 +45,7 @@ const projects = [
     id: 3,
     title: 'Typekaart Scanner.',
     category: {
-      id: 3,
+      id: 1,
       title: {
         en: 'Computer Vision',
       },
@@ -61,7 +61,7 @@ const projects = [
     id: 4,
     title: 'Kadastrale Kaart Next.',
     category: {
-      id: 3,
+      id: 1,
       title: {
         en: 'Computer Vision',
       },
@@ -77,7 +77,7 @@ const projects = [
     id: 5,
     title: 'Trendata Chat',
     category: {
-      id: 1,
+      id: 3,
       title: {
         en: 'Chatbot',
       },
