@@ -12,14 +12,14 @@
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/resume" class="navbar-link">
-          {{ $t('pageTitles.resume') }}
+        <NuxtLink to="/portfolio" class="navbar-link">
+          {{ $t('pageTitles.portfolio') }}
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/portfolio" class="navbar-link">
-          {{ $t('pageTitles.portfolio') }}
+        <NuxtLink to="/resume" class="navbar-link">
+          {{ $t('pageTitles.resume') }}
         </NuxtLink>
       </li>
 
