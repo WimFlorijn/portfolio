@@ -44,7 +44,7 @@ useHead({
 
 <template>
   <main class="relative">
-    <notifications/>
+    <notifications class="mt-4 me-4"/>
     <Sidebar />
     <div class="main-content">
       <Navbar />
