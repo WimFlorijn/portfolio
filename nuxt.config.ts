@@ -13,9 +13,8 @@ export default defineNuxtConfig({
       },
     },
   },
-  sitemap: {
-    hostname: 'https://www.wimflorijn.nl',
-    gzip: true,
+  site: {
+    url: 'https://www.wimflorijn.nl',
   },
   ssr: false,
   experimental: {
