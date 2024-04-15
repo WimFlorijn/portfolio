@@ -29,6 +29,7 @@
     "@kyvg/vue3-notification": "^3.2.1",
     "primeicons": "^6.0.1",
     "primevue": "^3.17.0",
-    "vue-cookies": "^1.8.1"
+    "vue-cookies": "^1.8.1",
+    "@nuxtjs/sitemap": "^5.1.4"
   }
 }
