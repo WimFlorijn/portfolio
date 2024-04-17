@@ -45,7 +45,7 @@ function toggleMenu() {
               Email
             </p>
 
-            <a href="wimflorijn@hotmail.com" class="contact-link">wimflorijn@hotmail.com</a>
+            <a href="mailto:wimflorijn@hotmail.com" class="contact-link">wimflorijn@hotmail.com</a>
           </div>
         </li>
 
