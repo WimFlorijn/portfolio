@@ -89,6 +89,21 @@ const projects = [
     url: 'https://chat.trendata.io/',
     image: '/images/trendata-chat.png',
   },
+  {
+    "id": 6,
+    "title": "Technical Drawings",
+    "category": {
+      "id": 1,
+      "title": {
+        "en": "Computer Vision"
+      }
+    },
+    "content": {
+      "en": "An innovative web application that automates the extraction of information from technical drawings. Leveraging state-of-the-art AI, this tool accurately captures and classifies technical specifications and details, facilitating efficient data management and analysis."
+    },
+    "url": "https://www.wimflorijn.nl/scanner/views",
+    "image": "/images/views-scanner.png"
+  }
 ]
 const categories = [
   {
