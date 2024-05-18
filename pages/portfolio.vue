@@ -1,5 +1,5 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import {useI18n} from 'vue-i18n'
 import Flicking from '@egjs/vue3-flicking'
 import '@egjs/vue3-flicking/dist/flicking.css'
 
@@ -7,7 +7,7 @@ useHead({
   title: 'Portfolio',
 })
 
-const { locale } = useI18n({ useScope: 'global' })
+const {locale} = useI18n({useScope: 'global'})
 const projects = [
   {
     id: 1,
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Typekaart Scanner.',
+    title: 'Device Finder',
     category: {
       id: 1,
       title: {
@@ -90,19 +90,20 @@ const projects = [
     image: '/images/trendata-chat.png',
   },
   {
-    "id": 6,
-    "title": "Technical Drawings",
-    "category": {
-      "id": 1,
-      "title": {
+    id: 6,
+    title: "Technical Drawings",
+    category: {
+      id: 1,
+      title: {
         "en": "Computer Vision"
       }
     },
-    "content": {
-      "en": "An innovative web application that automates the extraction of information from technical drawings. Leveraging state-of-the-art AI, this tool accurately captures and classifies technical specifications and details, facilitating efficient data management and analysis."
+    content: {
+      en: "An innovative web application that automates the extraction of information from technical drawings. Leveraging state-of-the-art AI, this tool accurately captures and classifies technical specifications and details, facilitating efficient data management and analysis."
     },
-    "url": "https://www.wimflorijn.nl/scanner/views",
-    "image": "/images/views-scanner.png"
+    date: '12 May, 2024',
+    url: "https://www.wimflorijn.nl/scanner/views",
+    image: "/images/views-scanner.png"
   }
 ]
 const categories = [
@@ -182,11 +183,13 @@ function closeItem() {
       <div class="filter-select-box">
         <button :class="{ active: filterMenu }" class="filter-select" @click="filterMenu = !filterMenu">
           <div class="select-value">
-            {{ activeCategory !== 0 ? (locale === 'en' ? activeCategoryName?.en : activeCategoryName?.tr) : 'Select Category' }}
+            {{
+              activeCategory !== 0 ? (locale === 'en' ? activeCategoryName?.en : activeCategoryName?.tr) : 'Select Category'
+            }}
           </div>
 
           <div class="select-icon">
-            <ion-icon name="chevron-down" />
+            <ion-icon name="chevron-down"/>
           </div>
         </button>
 
@@ -206,12 +209,13 @@ function closeItem() {
       </div>
 
       <ul class="project-list">
-        <li v-for="project in projectList" :key="project.id" :class="{ active: activeCategory === project.category.id || activeCategory === 0 }" class="project-item">
+        <li v-for="project in projectList" :key="project.id"
+            :class="{ active: activeCategory === project.category.id || activeCategory === 0 }" class="project-item">
           <a class="cursor-pointer" @click="showItem(project.id)">
 
             <figure class="project-img">
               <div class="project-item-icon-box">
-                <ion-icon name="eye-outline" />
+                <ion-icon name="eye-outline"/>
               </div>
 
               <img :src="project.image" :alt="project.title" loading="lazy">
@@ -219,18 +223,20 @@ function closeItem() {
 
             <h3 class="project-title">{{ project.title }}</h3>
 
-            <p class="project-category">{{ locale === 'en' ? project.category.title?.en : project.category.title?.tr }}</p>
+            <p class="project-category">{{
+                locale === 'en' ? project.category.title?.en : project.category.title?.tr
+              }}</p>
 
           </a>
         </li>
       </ul>
 
       <div class="modal-container" :class="{ active: activeModal }">
-        <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" />
+        <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }"/>
 
         <section class="testimonials-modal block">
           <button class="modal-close-btn" @click="closeItem">
-            <ion-icon name="close-outline" />
+            <ion-icon name="close-outline"/>
           </button>
 
           <div>
@@ -245,10 +251,12 @@ function closeItem() {
             </h4>
 
             <small class="flex items-center justify-start gap-2 text-gray-500">
-              <span>{{ activeItem.date }}</span> | <span>{{ locale === 'en' ? activeItem.category?.title?.en : activeItem.category?.title?.tr }}</span> | <a :href="activeItem.url">View Project</a>
+              <span>{{ activeItem.date }}</span> |
+              <span>{{ locale === 'en' ? activeItem.category?.title?.en : activeItem.category?.title?.tr }}</span> | <a
+                :href="activeItem.url">View Project</a>
             </small>
 
-            <p class="text-justify" v-html="locale === 'en' ? activeItem.content?.en : activeItem.content?.tr" />
+            <p class="text-justify" v-html="locale === 'en' ? activeItem.content?.en : activeItem.content?.tr"/>
           </div>
         </section>
       </div>
