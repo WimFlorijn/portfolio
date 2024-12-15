@@ -59,7 +59,7 @@ const services = [
 
     <section class="about-text">
       <p>
-        I'm a Machine Learning Engineer who loves working with artificial intelligence, especially in understanding language (Natural Language Processing) and helping computers 'see' (Computer Vision). My job is all about teaching machines to make sense of words, images and other data.
+        I love working with artificial intelligence, especially in understanding language (Natural Language Processing) and helping computers 'see' (Computer Vision).
       </p>
 
       <p>
