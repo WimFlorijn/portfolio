@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://www.wimflorijn.nl',
+    url: 'https://wimflorijn.nl',
   },
   ssr: false,
   experimental: {

@@ -54,7 +54,7 @@ const projects = [
       en: 'A cutting-edge web application designed to revolutionize the way you identify devices from images. With the power of advanced AI technology, beekman can recognize various devices captured in photos, pinpointing their specific models and types.',
     },
     date: '2 March, 2024',
-    url: 'https://www.wimflorijn.nl/scanner',
+    url: 'https://wimflorijn.nl/scanner',
     image: '/images/typekaart-scanner.png',
   },
   {
@@ -102,7 +102,7 @@ const projects = [
       en: "An innovative web application that automates the extraction of information from technical drawings. Leveraging state-of-the-art AI, this tool accurately captures and classifies technical specifications and details, facilitating efficient data management and analysis."
     },
     date: '12 May, 2024',
-    url: "https://www.wimflorijn.nl/scanner/views",
+    url: "https://wimflorijn.nl/scanner/views",
     image: "/images/views-scanner.png"
   }
 ]
